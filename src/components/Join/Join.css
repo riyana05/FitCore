@@ -78,4 +78,66 @@
     font-size: 1rem;
 }
 
+@media screen and (max-width: 480px) {
+  .Join {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 1rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left-join {
+    font-size: 2rem;
+  }
+
+  .left-join > hr {
+    position: relative;
+    margin: 1rem auto;
+    width: 8rem;
+    border: 1.5px solid var(--orange);
+  }
+
+  .left-j > div {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .right-j {
+    width: 100%;
+    align-items: center;
+  }
+
+ .email-container {
+  flex-direction: column;
+  width: 80%;            
+  padding: 0.8rem 1rem; 
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+
+.email-container input,
+.btn-j {
+  width: 100%;          
+  font-size: 0.9rem;    
+  padding: 0.5rem;
+}
+
+  .contact-us {
+    font-size: 0.9rem;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+  }
+
+  .contact-us h2 {
+    font-size: 1.2rem;
+  }
+
+  .contact-us p {
+    font-size: 0.9rem;
+  }
+}
+
+
 
